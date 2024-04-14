@@ -53,7 +53,7 @@ const initialBooks = [
     name: "Gone Girl",
     price: 12.99,
     category: "Suspense/Thrillers",
-    description: "he novel Gone Girl tells the story of Nick Dunne and Amy Elliot Dunne. Their marriage is in trouble and when Amy disappears on the morning of their fifth anniversary it appears foul play is the cause and Nick is the culprit."
+    description: "The novel Gone Girl tells the story of Nick Dunne and Amy Elliot Dunne. Their marriage is in trouble and when Amy disappears on the morning of their fifth anniversary it appears foul play is the cause and Nick is the culprit."
   },
   {
     id: 9,
