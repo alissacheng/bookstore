@@ -1,0 +1,11 @@
+nav.navbar {
+  h1 + p {
+    display: none;
+  }
+
+  @media(min-width: 992px){
+    h1 + p {
+      display: block;
+    }
+  }
+}

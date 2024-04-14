@@ -1,0 +1,40 @@
+table > tbody > tr:hover > *{
+  background-color: $gray-100;
+}
+
+table tbody tr:last-of-type td {
+  border: none;
+}
+
+th,
+td {
+  font-size: 14px;
+  font-weight: 500;
+
+  @media(min-width: 576px){
+    font-size: 15px;
+  }
+}
+
+td strong {
+  font-weight: 800;
+  font-size: 14.5px;
+}
+
+.table-bordered {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.delete-btn{
+  background-color: transparent;
+
+  &:hover {
+    background-color: $gray-200;
+  }
+
+  img {
+    height: 34px;
+    width: auto;
+  }
+}

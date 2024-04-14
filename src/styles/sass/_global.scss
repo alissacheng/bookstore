@@ -1,0 +1,17 @@
+button,
+table tr {
+  transition-duration: 0.3s;
+}
+
+button,
+button.btn {
+  font-weight: 500;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+.min-w-200 {
+  min-width: 200px;
+}
