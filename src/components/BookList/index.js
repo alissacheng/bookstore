@@ -8,10 +8,6 @@ const BookList = () => {
   const dispatch = useDispatch();
   const books = useSelector((state) => state.books.items);
 
-  const handleDelete = (book) => {
-      dispatch(removeItem(book))
-  }
-
   return(
     <div className="container-lg px-3 px-md-5 px-lg-0 book-list">
       {
@@ -37,7 +33,7 @@ const BookList = () => {
                   <OneBook 
                       key={book.id} 
                       book={book}
-                      handleDelete={handleDelete}
+                      handleDelete={(book)=>dispatch(removeItem(book))}
                       editBook={(book)=>dispatch(editBook(book))}
                   />)
               })}
