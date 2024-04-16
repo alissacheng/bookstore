@@ -22,7 +22,7 @@ const SelectInput = ({options, name, label, handleChange, value, error}) => {
                 })}
             </select>
             <label htmlFor={name + "-input"}>{label}</label>
-            {error && <p>{error}</p>}
+            {error && <p className="error mt-1">{error}</p>}
         </div>
     )
 }
